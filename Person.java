@@ -5,3 +5,6 @@ Feb 22 2025
 Nintendo-HR-Inheritance
 CSCI 2251 R01
 */
+public class Person {
+	
+}
