@@ -1,4 +1,11 @@
 /*
+Fielding Parsons
+Use inheritance to do HR work for Nintendo
+Feb 22 2025
+Nintendo-HR-Inheritance
+CSCI 2251 R01
+*/
+/*
 This code is provided to give you a
 starting place. It should be modified.
 No further imports are needed.
