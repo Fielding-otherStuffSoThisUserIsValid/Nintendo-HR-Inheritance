@@ -32,8 +32,6 @@ Q5: CellPhone and Battery are related
 by which, Inheritance or Composition?
 Composition
 
-//TODO double check question answers
-
 */
 import java.io.File;
 import java.io.FileWriter;
