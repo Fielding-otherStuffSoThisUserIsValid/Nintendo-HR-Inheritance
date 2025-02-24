@@ -71,5 +71,10 @@ public class Main
 			System.out.println(e);
 			System.exit(1);
 		}*/
+		
+		//testing code
+		
+		Person stevenBobsworth = new Person();
+		System.out.println(stevenBobsworth);
 	}
 }
