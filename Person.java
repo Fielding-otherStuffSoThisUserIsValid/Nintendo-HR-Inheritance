@@ -12,6 +12,6 @@ public class Person {
 	
 	@Override
 	public String toString() {
-		return "";
+		return String.format("%8s %16d %12d", name, height, weight);
 	}
 }
