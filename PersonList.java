@@ -8,4 +8,5 @@ CSCI 2251 R01
 public interface PersonList {
 	
 	public void add(Person JDoe);
+	public Person get(int index);
 }
