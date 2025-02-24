@@ -7,4 +7,5 @@ CSCI 2251 R01
 */
 public interface PersonList {
 	
+	public void add(Person JDoe);
 }
