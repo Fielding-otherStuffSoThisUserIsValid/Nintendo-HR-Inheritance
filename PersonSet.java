@@ -11,7 +11,8 @@ public class PersonSet implements PersonList {
 	
 	@Override
 	public void add(Person JDoe) {
-		
+		personArrayList.add(JDOE);
+		//TODO CHECK FOR AND ELIMINATE DUPLICATES
 	}
 	
 	@Override
