@@ -68,7 +68,9 @@ public class Person {
 		}
 		
 		Person p = (Person) o;
-		//if (p.getName.equals(this.name) 
+		if (p.getName().equals(this.name)) {
+			return true;
+		}	
 		return false; //PLACEHOLDER
 	}
 }
