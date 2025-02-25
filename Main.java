@@ -45,7 +45,7 @@ public class Main
 		
 		System.out.println();
 		
-		Person wario = new Person(Wario, 170, 140); //https://www.reddit.com/r/Mario/comments/8iwuvv/what_are_the_main_and_some_side_characters/ for height and weight 
+		Person wario = new Person("Wario", 170, 140); //https://www.reddit.com/r/Mario/comments/8iwuvv/what_are_the_main_and_some_side_characters/ for height and weight 
 		PersonSet warioLandCharacters = new PersonSet();
 		
 		Scanner fileIn = null;
@@ -53,10 +53,12 @@ public class Main
 			if (args[0].endsWith(".txt")) { //Strings powerpoint from CSCI 1152
 				File hrData = new File(args[0]);
 				fileIn = new Scanner(hrData);
-			} 
+			} else {
+				throw new IOException();
+			}
 			
 		} catch (IOException e) {
-			printStackTrace();
+			e.printStackTrace();
 			System.exit(1);
 		}
 		/*
