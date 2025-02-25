@@ -68,6 +68,9 @@ public class Main
 			System.out.println("Nothing has been entered in the args");
 			System.exit(2);
 		}
+		
+		fileIn.nextLine();
+		//while (
 		/*
 		// Don't overcomplicate the data
 		// reading. After skipping the
