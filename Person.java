@@ -10,6 +10,10 @@ public class Person {
 	private int height;
 	private int weight;
 	
+	public setName(String name) {
+		this.name = name;
+	}
+	
 	@Override
 	public String toString() {
 		return String.format("%-8s %-16d %-12d", name, height, weight);
@@ -30,6 +34,7 @@ public class Person {
 		}
 		
 		Person p = (Person) o;
+		//if (p
 		return false; //PLACEHOLDER
 	}
 }
