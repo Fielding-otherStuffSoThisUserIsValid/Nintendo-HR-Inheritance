@@ -49,7 +49,12 @@ public class Main
 		PersonSet warioLandCharacters = new PersonSet();
 		
 		Scanner fileIn = null;
-		
+		try {
+			fileIn = new Scanner(args[0]);
+		} catch (IOException e) {
+			printStackTrace();
+			System.exit(1);
+		}
 		/*
 		// Don't overcomplicate the data
 		// reading. After skipping the
