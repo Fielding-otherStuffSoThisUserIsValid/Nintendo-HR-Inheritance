@@ -9,9 +9,10 @@ import java.util.ArrayList;
 public class PersonSet implements PersonList {
 	protected ArrayList<Person> personArrayList = new ArrayList<Person>();
 	
+	//
 	@Override
 	public void add(Person JDoe) {
-		System.out.println(personArrayList.contains(JDoe));//testing
+		// System.out.println(personArrayList.contains(JDoe));//testing
 		if (!personArrayList.contains(JDoe)) {
 			personArrayList.add(JDoe);
 		}
