@@ -60,6 +60,7 @@ public class Person {
 		return String.format("%-8s %-16d %-12d", this.name, this.height, this.weight);
 	}
 	
+	// This method checks if one member of the Person class is equal to another member of the Person class
 	@Override
 	public boolean equals(Object o) {
 		if (o == null) {
