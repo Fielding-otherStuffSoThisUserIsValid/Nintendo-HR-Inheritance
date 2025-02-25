@@ -50,7 +50,8 @@ public class Main
 		
 		Scanner fileIn = null;
 		try {
-			fileIn = new Scanner(args[0]);
+			File hrData = new File(args[0];
+			fileIn = new Scanner(hrData);
 		} catch (IOException e) {
 			printStackTrace();
 			System.exit(1);
