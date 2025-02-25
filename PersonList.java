@@ -7,6 +7,7 @@ CSCI 2251 R01
 */
 public interface PersonList {
 	
+	// Both of these methods do nothing
 	public void add(Person JDoe);
 	public Person get(int index);
 }
