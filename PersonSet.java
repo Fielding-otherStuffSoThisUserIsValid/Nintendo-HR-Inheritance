@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class PersonSet implements PersonList {
 	protected ArrayList<Person> personArrayList = new ArrayList<Person>();
 	
-	//
+	// This method checks to see if the ArrayList already contains the Person we're trying to add. If it doesn't, then we add the Person to the ArrayList
 	@Override
 	public void add(Person JDoe) {
 		// System.out.println(personArrayList.contains(JDoe));//testing
@@ -18,12 +18,14 @@ public class PersonSet implements PersonList {
 		}
 	}
 	
+	// This method returns the Person at the index entered
 	@Override
 	public Person get(int index) {
 		return personArrayList.get(index);
 	}	
 
 	//testing
+	// This method for testing prints out the ArrayList
 	public void printArrayList() {
 		System.out.println();
 		for (int i = 0; i < personArrayList.size(); i++) {
