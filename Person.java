@@ -24,26 +24,32 @@ public class Person {
 		this.weight = weight;
 	}
 	
+	// Sets name
 	public void setName(String name) {
 		this.name = name;
 	}
 	
+	// Gets name
 	public String getName() {
 		return this.name;
 	}
 	
+	// Sets Height
 	public void setHeight(int height) {
 		this.height = height; 
 	}
 	
+	// Gets height
 	public int getHeight() {
 		return this.height;
 	}
 	
+	// Sets weight
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}
 	
+	// Gets weight
 	public int getWeight() {
 		return this.weight;
 	}
