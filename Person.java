@@ -55,7 +55,7 @@ public class Person {
 	
 	@Override
 	public boolean equals(Object o) {
-		/*if (o == null) {
+		if (o == null) {
 			return false;
 		}
 		
@@ -66,11 +66,11 @@ public class Person {
 		if (!(o instanceof Person)) { //https://www.geeksforgeeks.org/overriding-equals-method-in-java/
 			return false;
 		}
-		*/
+		
 		Person p = (Person) o;
-		if (p.getName().equals(this.name)) {
+		if (p.getName().equals(this.name) && p.getHeight() == this.height && p.getWeight() == this.weight) {
 			return true;
 		}	
-		return false; //PLACEHOLDER
+		return false;
 	}
 }
