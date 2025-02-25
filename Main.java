@@ -83,5 +83,10 @@ public class Main
 		Person worthSteBobVen = new Person("Waluigi", 5000, 5000);
 		System.out.println(stevenBobsworth.equals(worthSteBobVen));
 		
+		PersonSet stevenAndBobSet = new PersonSet();
+		stevenAndBobSet.add(stevenBobsworth);
+		stevenAndBobSet.add(stevenBobsworth);
+		
+		
 	}
 }
