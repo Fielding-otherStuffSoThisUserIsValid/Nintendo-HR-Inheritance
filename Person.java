@@ -54,9 +54,10 @@ public class Person {
 		return this.weight;
 	}
 	
+	// This method returns a formatted string that contains the name, height and weight
 	@Override
 	public String toString() {
-		return String.format("%-8s %-16d %-12d", name, height, weight);
+		return String.format("%-8s %-16d %-12d", this.name, this.height, this.weight);
 	}
 	
 	@Override
