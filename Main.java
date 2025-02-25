@@ -76,5 +76,9 @@ public class Main
 		
 		Person stevenBobsworth = new Person();
 		System.out.println(stevenBobsworth);
+		
+		Person bobStevensworth = new Person();
+		System.out.println(stevenBobsworth.equals(bobStevensworth));
+		
 	}
 }
