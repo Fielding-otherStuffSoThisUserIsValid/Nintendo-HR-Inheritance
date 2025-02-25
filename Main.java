@@ -74,7 +74,10 @@ public class Main
 			String name = fileIn.next();
 			int height = fileIn.nextInt();
 			int weight = fileIn.nextInt();
+			Person temp = new Person(name, height, weight);
+			System.out.println(temp);
 		}
+		
 		/*
 		// Don't overcomplicate the data
 		// reading. After skipping the
@@ -103,7 +106,7 @@ public class Main
 		}*/
 		
 		//testing code
-		
+		/*
 		Person stevenBobsworth = new Person();
 		System.out.println(stevenBobsworth);
 		
@@ -118,6 +121,6 @@ public class Main
 		stevenAndBobSet.add(stevenBobsworth);
 		stevenAndBobSet.add(worthSteBobVen);
 		stevenAndBobSet.printArrayList();
-		
+		*/
 	}
 }
