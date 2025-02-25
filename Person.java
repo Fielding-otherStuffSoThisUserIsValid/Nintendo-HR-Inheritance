@@ -14,4 +14,9 @@ public class Person {
 	public String toString() {
 		return String.format("%-8s %-16d %-12d", name, height, weight);
 	}
+	
+	@Override
+	public boolean equals(Object o) {
+		
+	}
 }
