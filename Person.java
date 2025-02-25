@@ -18,6 +18,9 @@ public class Person {
 		return name;
 	}
 	
+	public void setHeight(int height) {
+		this.height = height; 
+	}
 	@Override
 	public String toString() {
 		return String.format("%-8s %-16d %-12d", name, height, weight);
