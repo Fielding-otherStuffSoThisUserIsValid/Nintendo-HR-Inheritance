@@ -11,6 +11,7 @@ public class PersonSet implements PersonList {
 	
 	@Override
 	public void add(Person JDoe) {
+		System.out.println(personArrayList.contains(JDoe));
 		if (personArrayList.contains(JDoe)) {
 			personArrayList.add(JDoe);
 		}
