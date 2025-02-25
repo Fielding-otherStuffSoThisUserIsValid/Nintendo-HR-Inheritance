@@ -70,7 +70,11 @@ public class Main
 		}
 		
 		fileIn.nextLine();
-		//while (
+		while (fileIn.hasNext) {
+			String name = fileIn.next();
+			int height = fileIn.nextInt();
+			int weight = fileIn.nextInt();
+		}
 		/*
 		// Don't overcomplicate the data
 		// reading. After skipping the
