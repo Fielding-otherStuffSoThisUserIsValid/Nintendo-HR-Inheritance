@@ -11,12 +11,12 @@ public class PersonSet implements PersonList {
 	
 	@Override
 	public void add(Person JDoe) {
-		personArrayList.add(JDOE);
+		personArrayList.add(JDoe);
 		//TODO CHECK FOR AND ELIMINATE DUPLICATES
 	}
 	
 	@Override
 	public Person get(int index) {
-		return new personArrayList.get(index);
+		return personArrayList.get(index);
 	}		
 }
