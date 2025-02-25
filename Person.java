@@ -10,6 +10,13 @@ public class Person {
 	private int height;
 	private int weight;
 	
+	// Default contructor
+	public Person() {
+		this.name = "J. Doe";
+		this.height = 178;
+		this.weight = 80;
+	}
+	
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -54,7 +61,7 @@ public class Person {
 		}
 		
 		Person p = (Person) o;
-		//if (p
+		//if (p.getName.equals(this.name) 
 		return false; //PLACEHOLDER
 	}
 }
