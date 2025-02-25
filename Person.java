@@ -15,11 +15,15 @@ public class Person {
 	}
 	
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	
 	public void setHeight(int height) {
 		this.height = height; 
+	}
+	
+	public int getHeight() {
+		return this.height;
 	}
 	@Override
 	public String toString() {
