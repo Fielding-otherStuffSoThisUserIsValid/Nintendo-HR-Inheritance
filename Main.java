@@ -38,6 +38,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+// This method creates a new Person and a new PersonSet. Then it reads in a file and prints out all the Persons contained within.
 public class Main 
 {
 	public static void main(String[] args) 
@@ -48,6 +49,10 @@ public class Main
 		Person wario = new Person("Wario", 170, 140); //https://www.reddit.com/r/Mario/comments/8iwuvv/what_are_the_main_and_some_side_characters/ for height and weight 
 		PersonSet warioLandCharacters = new PersonSet();
 		
+		// Create a new scanner set to null, then in a try catch attempt to intialize the scanner properly.
+		// First, check if args[0] is the name of a text file, and if it isn't, throw an IOException. If there is no args[0], an ArrayIndexOutOfBoundsException will be caught.
+		// Second, make a new File, and the file contained is the one entered in args[0];
+		// Third, have the scanner read in the file. if the file doesn't have anything in it, throw an IOException
 		Scanner fileIn = null;
 		try {
 			if (args[0].endsWith(".txt")) { //Strings powerpoint from CSCI 1152
@@ -70,7 +75,7 @@ public class Main
 		}
 		
 		fileIn.nextLine();
-		while (fileIn.hasNext) {
+		while (fileIn.hasNext()) {
 			String name = fileIn.next();
 			int height = fileIn.nextInt();
 			int weight = fileIn.nextInt();
