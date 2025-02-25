@@ -23,7 +23,7 @@ public class PersonSet implements PersonList {
 	}	
 
 	//testing
-	public printArrayList() {
+	public void printArrayList() {
 		System.out.println();
 		for (int i = 0; i < personArrayList.size(); i++) {
 			System.out.print(personArrayList.get(i)+"  ");

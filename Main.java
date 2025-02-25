@@ -86,7 +86,7 @@ public class Main
 		PersonSet stevenAndBobSet = new PersonSet();
 		stevenAndBobSet.add(stevenBobsworth);
 		stevenAndBobSet.add(stevenBobsworth);
-		
+		stevenAndBobSet.printArrayList();
 		
 	}
 }
