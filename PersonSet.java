@@ -12,4 +12,9 @@ public class PersonSet implements PersonList {
 	public void add(person JDoe) {
 		
 	}
+	
+	@Override
+	public Person get(int index) {
+		
+	}		
 }
