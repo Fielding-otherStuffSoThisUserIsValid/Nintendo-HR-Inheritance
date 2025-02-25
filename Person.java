@@ -20,6 +20,14 @@ public class Person {
 		if (o == null) {
 			return false;
 		}
+		
+		if (o == this) {
+			return true;
+		}
+		
+		if (o /*fill in in a bit*/) { //https://www.geeksforgeeks.org/overriding-equals-method-in-java/
+		
+		}
 		return false; //PLACEHOLDER
 	}
 }
