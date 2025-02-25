@@ -28,6 +28,8 @@ public class Person {
 		if (!(o instanceof Person)) { //https://www.geeksforgeeks.org/overriding-equals-method-in-java/
 			return false;
 		}
+		
+		Person p = (Person) o;
 		return false; //PLACEHOLDER
 	}
 }
