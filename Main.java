@@ -80,5 +80,8 @@ public class Main
 		Person bobStevensworth = new Person();
 		System.out.println(stevenBobsworth.equals(bobStevensworth));
 		
+		Person worthSteBobVen = new Person("Waluigi", 5000, 5000);
+		System.out.println(stevenBobsworth.equals(worthSteBobVen));
+		
 	}
 }
