@@ -46,7 +46,7 @@ public class Main
 		
 		System.out.println();
 		
-		Person wario = new Person("Wario", 170, 140); //https://www.reddit.com/r/Mario/comments/8iwuvv/what_are_the_main_and_some_side_characters/ for height and weight 
+		Person wario = new Person("Wario", 170, 140); //https://www.reddit.com/r/Mario/comments/8iwuvv/what_are_the_main_and_some_side_characters/ for height and weight of Wario
 		PersonSet warioLandCharacters = new PersonSet();
 		
 		// Create a new scanner set to null, then in a try catch attempt to intialize the scanner properly.
