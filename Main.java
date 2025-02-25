@@ -60,6 +60,9 @@ public class Main
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.exit(1);
+		} catch (ArrayIndexOutOfBoundsException e) {
+			e.printStackTrace();
+			System.exit(2);
 		}
 		/*
 		// Don't overcomplicate the data
