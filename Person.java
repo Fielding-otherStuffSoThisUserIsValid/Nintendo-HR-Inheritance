@@ -25,8 +25,8 @@ public class Person {
 			return true;
 		}
 		
-		if (o /*fill in in a bit*/) { //https://www.geeksforgeeks.org/overriding-equals-method-in-java/
-		
+		if (!(o instanceof Person)) { //https://www.geeksforgeeks.org/overriding-equals-method-in-java/
+			return false;
 		}
 		return false; //PLACEHOLDER
 	}
