@@ -55,7 +55,7 @@ public class Main
 		// Third, have the scanner read in the file. if the file doesn't have anything in it, throw an IOException
 		Scanner fileIn = null;
 		try {
-			if (args[0].endsWith(".txt")) { //Strings powerpoint from CSCI 1152
+			if (args[0].endsWith(".txt")) { //Strings powerpoint from CSCI 1152 for endsWith
 				File hrData = new File(args[0]);
 				fileIn = new Scanner(hrData);
 				if(!fileIn.hasNext()) {
