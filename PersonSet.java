@@ -15,6 +15,6 @@ public class PersonSet implements PersonList {
 	
 	@Override
 	public Person get(int index) {
-		
+		return new Person(); //PLACEHOLDER CODE
 	}		
 }
