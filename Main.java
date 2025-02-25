@@ -53,15 +53,19 @@ public class Main
 			if (args[0].endsWith(".txt")) { //Strings powerpoint from CSCI 1152
 				File hrData = new File(args[0]);
 				fileIn = new Scanner(hrData);
+				if(!fileIn.hasNext()) {
+					throw new IOException();
+				}
 			} else {
 				throw new IOException();
 			}
-			
 		} catch (IOException e) {
 			e.printStackTrace();
+			System.out.println("Either your file has no data or it is not a text file");
 			System.exit(1);
 		} catch (ArrayIndexOutOfBoundsException e) {
 			e.printStackTrace();
+			System.out.println("Nothing has been entered in the args");
 			System.exit(2);
 		}
 		/*
