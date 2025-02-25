@@ -9,7 +9,7 @@ public class PersonSet implements PersonList {
 	
 	
 	@Override
-	public void add(person JDoe) {
+	public void add(Person JDoe) {
 		
 	}
 	
