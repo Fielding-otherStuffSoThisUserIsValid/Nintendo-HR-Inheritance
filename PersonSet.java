@@ -7,7 +7,7 @@ CSCI 2251 R01
 */
 import java.util.ArrayList;
 public class PersonSet implements PersonList {
-	
+	protected ArrayList<Person> personArrayList = new ArrayList<Person>();
 	
 	@Override
 	public void add(Person JDoe) {
