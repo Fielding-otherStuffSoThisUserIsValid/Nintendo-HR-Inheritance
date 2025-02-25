@@ -10,8 +10,12 @@ public class Person {
 	private int height;
 	private int weight;
 	
-	public setName(String name) {
+	public void setName(String name) {
 		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
 	}
 	
 	@Override
