@@ -20,5 +20,10 @@ public class PersonSet implements PersonList {
 	@Override
 	public Person get(int index) {
 		return personArrayList.get(index);
-	}		
+	}	
+
+	//testing
+	public printArrayList() {
+		
+	}
 }
