@@ -33,4 +33,9 @@ public class PersonSet implements PersonList {
 		}
 		System.out.println();
 	}
+	
+	@Override
+	public String toString() {
+		return "";
+	}
 }
