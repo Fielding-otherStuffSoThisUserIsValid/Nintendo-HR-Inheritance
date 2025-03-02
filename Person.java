@@ -26,7 +26,9 @@ public class Person {
 	
 	// Constructor that takes a Person
 	public Person(Person JDoe) {
-		
+		this.name = JDoe.name;
+		this.height = JDoe.height;
+		this.weight = JDoe.weight;
 	}
 	
 	// Sets name
