@@ -111,7 +111,6 @@ public class Main
 		}*/
 		
 		//testing code
-		/*
 		Person stevenBobsworth = new Person();
 		System.out.println(stevenBobsworth);
 		
@@ -126,6 +125,7 @@ public class Main
 		stevenAndBobSet.add(stevenBobsworth);
 		stevenAndBobSet.add(worthSteBobVen);
 		stevenAndBobSet.printArrayList();
-		*/
+
+		System.out.println(stevenAndBobSet);
 	}
 }
