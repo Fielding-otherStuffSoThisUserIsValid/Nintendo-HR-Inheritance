@@ -57,7 +57,7 @@ public class Person {
 	// This method returns a formatted string that contains the name, height and weight
 	@Override
 	public String toString() {
-		return String.format("%-8s %16d %12d", this.name, this.height, this.weight);
+		return String.format("%-8s %-16d %12d", this.name, this.height, this.weight);
 	}
 	
 	// This method checks if one member of the Person class is equal to another member of the Person class
