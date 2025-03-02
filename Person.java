@@ -24,6 +24,11 @@ public class Person {
 		this.weight = weight;
 	}
 	
+	// Constructor that takes a Person
+	public Person(Person JDoe) {
+		
+	}
+	
 	// Sets name
 	public void setName(String name) {
 		this.name = name;
