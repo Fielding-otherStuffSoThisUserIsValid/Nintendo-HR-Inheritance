@@ -7,4 +7,8 @@ CSCI 2251 R01
 */
 public class PersonOrderedSet extends PersonSet {
 	
+	@Override
+	public void add(Person JDoe) {
+		super.add(JDoe);
+	}
 }
