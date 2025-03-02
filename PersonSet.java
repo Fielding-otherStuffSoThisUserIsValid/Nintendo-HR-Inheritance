@@ -36,6 +36,7 @@ public class PersonSet implements PersonList {
 	
 	@Override
 	public String toString() {
+		String fullSet = "Name	Height (cm)		Weight (kg)";
 		return "";
 	}
 }
