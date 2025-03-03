@@ -36,7 +36,7 @@ public class PersonSet implements PersonList {
 	
 	@Override
 	public String toString() {
-		String fullSet = "Name	Height (cm)	    Weight (kg)";
+		String fullSet = "Name    Height (cm)     Weight (kg)";
 		for (int i = 0; i < personArrayList.size(); i++) {
 			fullSet = fullSet+"\n"+personArrayList.get(i).toString();
 		}

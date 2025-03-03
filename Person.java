@@ -64,7 +64,7 @@ public class Person implements Comparable<Person> { //https://www.geeksforgeeks.
 	// This method returns a formatted string that contains the name, height and weight
 	@Override
 	public String toString() {
-		return String.format("%-7s %-15.0f %-12.0f", this.name, this.height, this.weight); //https://alvinalexander.com/programming/printf-format-cheat-sheet/ // The formatting for console and and files appears to be different so I prioritzed the files 
+		return String.format("%-7s %-15.0f %-12.0f", this.name, this.height, this.weight); //https://alvinalexander.com/programming/printf-format-cheat-sheet/
 	}
 	
 	// This method checks if one member of the Person class is equal to another member of the Person class
