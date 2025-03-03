@@ -86,6 +86,10 @@ public class Main
 			PersonImperialSet.add(tempImperial);
 		}
 		
+		FileWriter fileOut = null;
+		
+		
+		
 		/*
 		// Don't overcomplicate the data
 		// reading. After skipping the
