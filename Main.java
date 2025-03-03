@@ -93,6 +93,8 @@ public class Main
 			fileOutImperial = new FileWriter("hr_imperial_set_output.txt");
 			fileOut.write(marioCharacters.toString());
 			fileOutImperial.write(marioCharactersImperial.toString());
+			fileOut.close();
+			fileOutImperial.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("Could not create files");
