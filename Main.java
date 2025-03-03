@@ -127,5 +127,19 @@ public class Main
 		stevenAndBobSet.printArrayList();
 
 		System.out.println(stevenAndBobSet);
+		System.out.println();
+		
+		Person zach = new Person("Zacharias", 165, 100);
+		Person al = new Person("Alfred", 140, 75);
+		PersonOrderedSet alphabetTest = new PersonOrderedSet();
+		alphabetTest.add(zach);
+		alphabetTest.add(stevenBobsworth);
+		alphabetTest.add(worthSteBobVen); // Starting to regret these variable names...
+		alphabetTest.add(al);
+		System.out.println(alphabetTest);
+		System.out.println();
+		stevenAndBobSet.add(al);
+		System.out.println(stevenAndBobSet);
+		
 	}
 }
