@@ -81,7 +81,9 @@ public class Main
 			int height = fileIn.nextInt();
 			int weight = fileIn.nextInt();
 			Person temp = new Person(name, height, weight);
-			System.out.println(temp);
+			Person tempImperial = new Person(temp);
+			PersonOrderedSet.add(temp);
+			PersonImperialSet.add(tempImperial);
 		}
 		
 		/*
