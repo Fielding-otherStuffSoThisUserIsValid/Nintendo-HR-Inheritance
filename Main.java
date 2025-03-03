@@ -140,6 +140,18 @@ public class Main
 		System.out.println();
 		stevenAndBobSet.add(al);
 		System.out.println(stevenAndBobSet);
+		System.out.println();
+		
+		Person zachImp = new Person(zach);
+		Person alImp = new Person(al);
+		Person stevenBobsworthImp = new Person(stevenBobsworth);
+		Person worthSteBobVenImp = new Person(worthSteBobVen);
+		PersonImperialSet imperialTest = new PersonImperialSet();
+		imperialTest.add(zachImp);
+		imperialTest.add(stevenBobsworthImp);
+		imperialTest.add(worthSteBobVenImp);
+		imperialTest.add(alImp);
+		System.out.println(imperialTest);
 		
 	}
 }
