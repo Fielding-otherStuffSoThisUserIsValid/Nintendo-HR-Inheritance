@@ -87,9 +87,11 @@ public class Main
 		}
 		
 		FileWriter fileOut = null;
+		try {
 		
-		
-		
+		} catch (IOException e) {
+			
+		}
 		/*
 		// Don't overcomplicate the data
 		// reading. After skipping the
