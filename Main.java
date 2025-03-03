@@ -38,7 +38,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-// This method creates a new Person and a new PersonSet. Then it reads in a file and prints out all the Persons contained within.
+// This method creates a new Person, a new PersonOrderedSet, and a new PersonImperialSet. 
+// Then it reads in a file, turns the lines into Persons and addes those Persons to PersonOrderedSet and PersonImperialSet.
+// Then it writes those two sets to two files and prints the same text on the console.
 public class Main 
 {
 	public static void main(String[] args) 

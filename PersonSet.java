@@ -34,6 +34,9 @@ public class PersonSet implements PersonList {
 		System.out.println();
 	}
 	
+	// This method starts with a String equal to the first line, that'll give information about the rest of the entries
+	// Then it loops through the whole personArrayList, tacking the current Person to the next line of that String
+	// Then it returns the String
 	@Override
 	public String toString() {
 		String fullSet = "Name    Height (cm)     Weight (kg)";

@@ -8,6 +8,7 @@ CSCI 2251 R01
 import java.util.Collections;
 public class PersonOrderedSet extends PersonSet {
 	
+	// This method adds the person than sorts the ArrayList
 	@Override
 	public void add(Person JDoe) {
 		super.add(JDoe);

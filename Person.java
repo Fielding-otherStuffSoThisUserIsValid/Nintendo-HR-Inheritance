@@ -89,6 +89,9 @@ public class Person implements Comparable<Person> { //https://www.geeksforgeeks.
 		return false;
 	}
 	
+	// This methods checkss if the instance variable name is not equal to the name we're comparing it to.
+	// If it's not equal it returns how not equal it is
+	// If it is equal it returns zero
 	// Pretty much this whole method I learned how to write via https://www.geeksforgeeks.org/comparable-interface-in-java-with-examples/
 	@Override
 	public int compareTo(Person JDoe) {

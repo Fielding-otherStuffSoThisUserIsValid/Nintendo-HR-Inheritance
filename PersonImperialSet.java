@@ -7,6 +7,7 @@ CSCI 2251 R01
 */
 public class PersonImperialSet extends PersonSet {
 	
+	// This method converts the Person's units to imperial that adds it to the set
 	@Override
 	public void add(Person JDoe) {
 		JDoe.setHeight(JDoe.getHeight() * 0.39); //https://www.rapidtables.com/convert/length/cm-to-inch.html
