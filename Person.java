@@ -7,8 +7,8 @@ CSCI 2251 R01
 */
 public class Person implements Comparable<Person> { //https://www.geeksforgeeks.org/comparable-interface-in-java-with-examples/
 	private String name;
-	private int height;
-	private int weight;
+	private double height;
+	private double weight;
 	
 	// Default contructor
 	public Person() {
