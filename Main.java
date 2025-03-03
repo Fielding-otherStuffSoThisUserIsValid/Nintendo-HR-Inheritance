@@ -91,11 +91,15 @@ public class Main
 		try {
 			fileOut = new FileWriter("hr_ordered_set_output.txt");
 			fileOutImperial = new FileWriter("hr_imperial_set_output.txt");
+			fileOut.write(marioCharacters.toString());
+			fileOutImperial.write(marioCharactersImperial.toString());
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("Could not create files");
 			System.exit(3);
 		}
+		
+		
 		/*
 		// Don't overcomplicate the data
 		// reading. After skipping the
