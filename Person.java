@@ -5,7 +5,7 @@ Feb 24 2025
 Nintendo-HR-Inheritance
 CSCI 2251 R01
 */
-public class Person implements Comparable<Person> {
+public class Person implements Comparable<Person> { //https://www.geeksforgeeks.org/comparable-interface-in-java-with-examples/
 	private String name;
 	private int height;
 	private int weight;
@@ -89,6 +89,7 @@ public class Person implements Comparable<Person> {
 		return false;
 	}
 	
+	// Pretty much this whole method I learned how to write via https://www.geeksforgeeks.org/comparable-interface-in-java-with-examples/
 	@Override
 	public int compareTo(Person JDoe) {
 		if (this.name.compareTo(JDoe.name) != 0) {
