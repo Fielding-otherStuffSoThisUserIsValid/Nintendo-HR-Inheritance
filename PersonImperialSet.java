@@ -5,3 +5,6 @@ March 2 2025
 Nintendo-HR-Inheritance
 CSCI 2251 R01
 */
+public class PersonImperialSet extends PersonSet {
+	
+}
