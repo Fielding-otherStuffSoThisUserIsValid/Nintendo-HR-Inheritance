@@ -91,6 +91,9 @@ public class Person implements Comparable<Person> {
 	
 	@Override
 	public int compareTo(Person JDoe) {
-		return 7;
+		if (this.name.compareTo(JDoe.name) != 0) {
+			return this.name.compareTo(JDoe.name);
+		}
+		return 0;
 	}
 }
