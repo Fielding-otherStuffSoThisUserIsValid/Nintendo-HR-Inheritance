@@ -43,9 +43,6 @@ public class Main
 {
 	public static void main(String[] args) 
 	{
-		
-		System.out.println();
-		
 		Person wario = new Person("Wario", 170, 140); //https://www.reddit.com/r/Mario/comments/8iwuvv/what_are_the_main_and_some_side_characters/ for height and weight of Wario
 		PersonOrderedSet marioCharacters = new PersonOrderedSet();
 		PersonImperialSet marioCharactersImperial = new PersonImperialSet();
@@ -101,6 +98,9 @@ public class Main
 			System.exit(3);
 		}
 		
+		System.out.println(marioCharacters);
+		System.out.println();
+		System.out.println(marioCharactersImperial);
 		
 		/*
 		// Don't overcomplicate the data
