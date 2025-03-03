@@ -7,4 +7,8 @@ CSCI 2251 R01
 */
 public class PersonImperialSet extends PersonSet {
 	
+	@Override
+	public void add(Person JDoe) {
+		
+	}
 }
