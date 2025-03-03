@@ -111,6 +111,7 @@ public class Main
 		}*/
 		
 		//testing code
+		/*
 		Person stevenBobsworth = new Person();
 		System.out.println(stevenBobsworth);
 		
@@ -152,6 +153,6 @@ public class Main
 		imperialTest.add(worthSteBobVenImp);
 		imperialTest.add(alImp);
 		System.out.println(imperialTest);
-		
+		*/
 	}
 }
