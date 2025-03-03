@@ -82,8 +82,8 @@ public class Main
 			int weight = fileIn.nextInt();
 			Person temp = new Person(name, height, weight);
 			Person tempImperial = new Person(temp);
-			PersonOrderedSet.add(temp);
-			PersonImperialSet.add(tempImperial);
+			marioCharacters.add(temp); //https://stackoverflow.com/questions/2694566/non-static-method-cannot-be-referenced-from-a-static-context
+			marioCharactersImperial.add(tempImperial); //https://stackoverflow.com/questions/2694566/non-static-method-cannot-be-referenced-from-a-static-context
 		}
 		
 		FileWriter fileOut = null;
