@@ -90,7 +90,9 @@ public class Main
 		try {
 		
 		} catch (IOException e) {
-			
+			e.printStackTrace();
+			System.out.println("Could not create files");
+			System.exit(3);
 		}
 		/*
 		// Don't overcomplicate the data
