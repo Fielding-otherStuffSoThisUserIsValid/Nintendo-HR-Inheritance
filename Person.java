@@ -5,7 +5,7 @@ Feb 24 2025
 Nintendo-HR-Inheritance
 CSCI 2251 R01
 */
-public class Person implements Comparable {
+public class Person implements Comparable<Person> {
 	private String name;
 	private int height;
 	private int weight;
@@ -87,5 +87,10 @@ public class Person implements Comparable {
 			return true;
 		}	
 		return false;
+	}
+	
+	@Override
+	public int compareTo(Person JDoe) {
+		return 7;
 	}
 }
