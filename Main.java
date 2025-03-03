@@ -47,7 +47,8 @@ public class Main
 		System.out.println();
 		
 		Person wario = new Person("Wario", 170, 140); //https://www.reddit.com/r/Mario/comments/8iwuvv/what_are_the_main_and_some_side_characters/ for height and weight of Wario
-		PersonSet warioLandCharacters = new PersonSet();
+		PersonOrderedSet marioCharacters = new PersonOrderedSet();
+		PersonImperialSet marioCharactersImperial = new PersonImperialSet();
 		
 		// Create a new scanner set to null, then in a try catch attempt to intialize the scanner properly.
 		// First, check if args[0] is the name of a text file, and if it isn't, throw an IOException. If there is no args[0], an ArrayIndexOutOfBoundsException will be caught.
