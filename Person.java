@@ -42,7 +42,7 @@ public class Person implements Comparable<Person> { //https://www.geeksforgeeks.
 	}
 	
 	// Sets Height
-	public void setHeight(int height) {
+	public void setHeight(double height) {
 		this.height = height; 
 	}
 	
@@ -52,7 +52,7 @@ public class Person implements Comparable<Person> { //https://www.geeksforgeeks.
 	}
 	
 	// Sets weight
-	public void setWeight(int weight) {
+	public void setWeight(double weight) {
 		this.weight = weight;
 	}
 	
@@ -64,7 +64,7 @@ public class Person implements Comparable<Person> { //https://www.geeksforgeeks.
 	// This method returns a formatted string that contains the name, height and weight
 	@Override
 	public String toString() {
-		return String.format("%-8s %-16.0f %12.0f", this.name, this.height, this.weight);
+		return String.format("%-8s %-16.0f %12.0f", this.name, this.height, this.weight); //https://alvinalexander.com/programming/printf-format-cheat-sheet/
 	}
 	
 	// This method checks if one member of the Person class is equal to another member of the Person class
